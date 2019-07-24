@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----------------------RESET--------------------*/
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; outline: none;}
+
+html{background:#ccc;}
+
+#chat {position:fixed; bottom:20px;right:30px;}
+
+body{line-height:1; font-size:62.5%; background:#ccc; font-family:Arial, Helvetica, sans-serif;} /*---- 1.0 em = 10px---*/
+
+h1, h2, h3, h4, h5, h6{font-size:100%;}
+
+p, form{font-size:1.3em; line-height:1.8em; margin-bottom:10px; margin-left:5px;}
+
+a{text-decoration:none; color:#333; font-size:1.2em; font-weight:bold;}
+
+a img{border:0;}
+
+a img:hover{padding-left:0px;}
+
+/*----------------------RESET--------------------*/
+
+.global-div{width:900px; height:auto; min-height:300px; padding:0 15px 15px 15px; position:absolute; float:none; left:50%;  margin:5px 0 0 -470px ; border:5px solid #fff; background:#fff; box-shadow:0 0 5px #999; -moz-box-shadow:0 0 5px #999; -webkit-box-shadow:0 0 5px #999; }
+
+h1{font:italic 4.5em Georgia, "Times New Roman", Times, serif; text-align:center; margin: -5px -20px 20px -20px;background:#111; color:#fff; padding:15px 5px; letter-spacing:-0.04em; text-shadow:1px 1px 5px #fff;}
+
+h2{font:italic 2.4em Georgia, "Times New Roman", Times, serif; margin:0;
+color:#000; padding:0px 0px;width:100%}
+
+.alterado{background:url(../imgs/accept.png) no-repeat right center;}
+
+fieldset{border: solid 1px #ccc}
+
+
+input[type=text]{padding:3px; border:1px solid #999; margin-right:10px;  background-color:transparent;TEXT-TRANSFORM: uppercase;}
+
+
+
+input:focus{border:1px solid #ccc; -moz-box-shadow:0 0 3px #999; -webkit-box-shadow:0 0 3px #999; box-shadow:0 0 3px #999; background:#fff;}
+
+.loading{background:url(../imgs/loading.gif) no-repeat right center; }
+
+ul{list-style:none;}
+
+ul li{padding:3px;}
+
+ul li:nth-child(even){background-color:#eaeaea;}
+
+ul li:nth-child(odd){background-color:#cccccc;}
+
+ul li.novo{background-color:#F5E9C0;}
+
+hr{border:1px dashed #999;}
+
+ul li span{ margin-right:130px;}
+
+#grava input[type=text]{border-color:#999;}
+
+.credito{font-size:1.1em; position:absolute; right:0; bottom:-40px; margin-top:15px;}
+
+.credito a{font-size:1.1em;}
+
+.DivCadastro{
+ padding:3px;
+ border:1px solid #ccc;
+ -webkit-border-radius:10px;
+ -moz-border-radius:10px;
+  border-radius:10px;
+  background:-moz-linear-gradient(top, #F2F2F2, #ededed, #fdfdfd, #ffffff, #e1e1e1);
+  background:-webkit-gradient(linear,left top, left bottom, color-stop(0,#dedede), color-stop(.8,#ededed), color-stop(.3,#fdfdfd));           font-size:0.9em;
+  font-weight:bold; 
+  color:#333;
+  margin-left:0px;	
+}
+
+
+.DivLista{
+ padding:3px;
+ border:1px solid #ccc;
+ -webkit-border-radius:10px;
+ -moz-border-radius:10px;
+  border-radius:10px;
+  background:-moz-linear-gradient(top, #F2F2F2, #ededed, #fdfdfd, #ffffff, #e1e1e1);
+  background:-webkit-gradient(linear,left top, left bottom, color-stop(0,#dedede), color-stop(.8,#ededed), color-stop(.3,#fdfdfd));           font-size:0.9em;
+  font-weight:bold; 
+  color:#333;
+  margin-left:0px;	
+}
+
+.DivLista tr td{border:1px solid #ccc;}
+
+.caption {
+    margin: 5px 0 0 0;
+    padding: 3px 0 0 0;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #006;
+}
+
+.TabelaItens tr:nth-child(odd) {
+    background-color:#FFF; 
+}
+.TabelaItens tr:nth-child(even) {
+    background-color:#CCC; 
+}	
+
+
+.avisopagamento{
+    display:none;
+    width:300px;
+    height:140px;
+    position:absolute;
+    left:0;
+    top:0;
+    background:#FFF;
+    z-index:9900;
+    padding:10px;
+    border-radius:10px;
+}
+
+.Bloqueiopagamento{
+    display:none;
+    width:350px;
+    height:180px;
+    position:absolute;
+    left:0;
+    top:0;
+    background:#FFF;
+    z-index:9900;
+    padding:10px;
+    border-radius:10px;
+}
+ 
+#mascara{
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+}
+ 
+.fechar{display:block; text-align:right;}

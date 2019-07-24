@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+  padding:0;
+  margin:0;	
+  background-color:#E2E2E2;
+}
+.window{
+    display:none;
+    width:640px;
+    height:450px;
+    position:absolute;
+    left:0;
+    top:0;
+    background:#FFF;
+    z-index:9900;
+    padding:10px;
+    border-radius:10px;
+}
+ 
+#mascara{
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+}
+ 
+.fechar{display:block; text-align:right;}
+
+h1{
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-stretch:condensed;
+  font-size:24px;
+  color:#F60;	
+}
+
+.caption {
+    margin: 5px 0 0 0;
+    padding: 3px 0 0 0;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #006;
+}
+#BtnGravarEmitente{
+  background-color:#F60;
+  padding: 5px 15px 5px 15px;
+  border:1px solid #000;
+  font-weight: bold;
+  font-size: 8pt;
+  color: #000; 	
+  margin-top:15px;
+}
+
+.linkmenu:link{
+  color:#FBF2F2;
+  font-size:18px;
+  text-decoration:none;
+}
+.linkmenu:hover{
+  color:#1B1B1B;
+  font-size:18px;
+  text-decoration:none;
+}
+.linkmenu:visited{
+  color:#CCCCCC;
+  font-size:18px;
+  text-decoration:none;
+}
+input{
+  text-transform: uppercase;
+  border:#C3C3C3 solid 1px;	
+}

@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+.but {
+    display: inline-block;
+    background-color: #E9E9E9 ;
+    color: #444;
+    padding: 5px 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 0px;
+}
+.but:disabled{
+    display: inline-block;
+    background-color: #999;
+    color: #FFF;
+    padding: 5px 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 0px;
+}
+
+
+/* EFFECTS */
+
+.but:hover:enabled {
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+    cursor: pointer;
+}
+
+.but-shadow {
+    box-shadow: 1px 1px 1px #999;
+}
+
+.but-rc {
+    border-radius: 3px;
+}
+
+
+/* COLORS */
+
+.but-primary {
+    color: #fff;
+    background-color: #0068B4;
+}
+
+.but-success {
+    color: #fff;
+    background-color: #009835;
+}
+
+.but-error {
+    color: #fff;
+    background-color: #CC0000;
+}
+
+.but-warning {
+    color: #fff;
+    background-color: #F28E00;
+}
+
+/* SIZES */
+
+.but-small {
+    font-size: 60%;
+}
+
+.but-regular {
+    font-size: 100%;
+}
+
+.but-large {
+    font-size: 140%;
+}
+
+footer a:hover {
+    color: #CC9900;
+}
+
+
+/* Como Utilizar
+<section>
+	<div class="content">
+		<a class="but but-shadow but-rc" href="http://www.mainframe.blog.br" target="_blank">Default Button</a>
+		<a class="but but-primary but-shadow but-rc" href="http://www.mainframe.blog.br" target="_blank">Primary Button</a>
+		<a class="but but-success but-shadow but-rc" href="http://www.mainframe.blog.br" target="_blank">Success Button</a>
+		<a class="but but-error but-shadow but-rc" href="http://www.mainframe.blog.br" target="_blank">Error Button</a>
+		<a class="but but-warning but-shadow but-rc" href="http://www.mainframe.blog.br" target="_blank">Warning Button</a>
+	</div>
+</section>
+*/
